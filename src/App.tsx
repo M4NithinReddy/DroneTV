@@ -24,11 +24,11 @@ function App() {
   };
 
   const handleWatchNow = () => {
-    window.open('https://www.youtube.com/your-channel', '_blank');
+    window.open('https://www.instagram.com/dronetv.in/', '_blank');
   };
 
   const handleInternshipApplication = () => {
-    window.open('https://forms.google.com/your-form-link', '_blank');
+    window.open('https://forms.gle/eLjbjbBFJ25WmkPE8', '_blank');
   };
 
   const refs = {
