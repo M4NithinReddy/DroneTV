@@ -1,4 +1,17 @@
 import React from "react";
+import imageo1 from '../images/image01.jpg';
+import imageo2 from '../images/image02.jpg';
+import imageo3 from '../images/image03.jpg';
+import imageo4 from '../images/image04.jpg';
+import imageo5 from '../images/image05.jpg';
+import imageo6 from '../images/image06.jpg';
+import imageo7 from '../images/image07.jpg';
+import imageo8 from '../images/image08.jpg';
+import imageo9 from '../images/image09.jpg';
+import imageo10 from '../images/image10.jpg';
+import imageo11 from '../images/image11.jpg';
+import imageo12 from '../images/image12.jpg';
+
 
 interface GalleryImage {
   url: string;
@@ -17,41 +30,41 @@ export const Gallery: React.FC<GalleryProps> = ({
 }) => {
   const galleryImages: GalleryImage[] = [
     {
-      url: "/src/images/image01.jpg",
+      url: `${imageo1}`,
     },
     {
-      url: "/src/images/image02.jpg",
+      url: `${imageo2}`,
     },
     {
-      url: "/src/images/image03.jpg",
+      url: `${imageo3}`,
       
     },
     {
-      url: "/src/images/image04.jpg",
+      url: `${imageo4}`,
     },
     {
-      url: "/src/images/image05.jpg",
+      url: `${imageo5}`,
     },
     {
-      url: "/src/images/image06.jpg",
+      url: `${imageo6}`,
     },
     {
-      url: "/src/images/image07.jpg",
+      url: `${imageo7}`,
     },
     {
-      url: "/src/images/image08.jpg",
+      url: `${imageo8}`,
     },
     {
-      url: "/src/images/image09.jpg",
+      url: `${imageo9}`,
     },
     {
-      url: "/src/images/image10.jpg",
+      url: `${imageo10}`,
     },
     {
-      url: "/src/images/image11.jpg",
+      url: `${imageo11}`,
     },
     {
-      url: "/src/images/image12.jpg",
+      url: `${imageo12}`,
     },
   ];
 
