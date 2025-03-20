@@ -1,6 +1,6 @@
 import React from "react";
 import { Play, ArrowRight } from "lucide-react";
-import bannerImage from "../images/image01.jpg";
+import bannerImage from "../../public/images/image01.jpg";
 
 interface HeroProps {
   handleWatchNow: () => void;
