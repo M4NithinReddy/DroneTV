@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ scrollToSection, refs }) => {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center">
           <img
-            src="/src/images/logo.jpg"
+            src="/images/logo.jpg"
             alt="Drone TV Logo"
             className="h-16 w-[280px]"
           />
