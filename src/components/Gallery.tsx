@@ -1,17 +1,4 @@
 import React from "react";
-import imageo1 from '../images/image01.jpg';
-import imageo2 from '../images/image02.jpg';
-import imageo3 from '../images/image03.jpg';
-import imageo4 from '../images/image04.jpg';
-import imageo5 from '../images/image05.jpg';
-import imageo6 from '../images/image06.jpg';
-import imageo7 from '../images/image07.jpg';
-import imageo8 from '../images/image08.jpg';
-import imageo9 from '../images/image09.jpg';
-import imageo10 from '../images/image10.jpg';
-import imageo11 from '../images/image11.jpg';
-import imageo12 from '../images/image12.jpg';
-
 
 interface GalleryImage {
   url: string;
@@ -30,41 +17,40 @@ export const Gallery: React.FC<GalleryProps> = ({
 }) => {
   const galleryImages: GalleryImage[] = [
     {
-      url: `${imageo1}`,
+      url: "/images/image01.jpg", // Public folder path
     },
     {
-      url: `${imageo2}`,
+      url: "/images/image02.jpg",
     },
     {
-      url: `${imageo3}`,
-      
+      url: "/images/image03.jpg",
     },
     {
-      url: `${imageo4}`,
+      url: "/images/image04.jpg",
     },
     {
-      url: `${imageo5}`,
+      url: "/images/image05.jpg",
     },
     {
-      url: `${imageo6}`,
+      url: "/images/image06.jpg",
     },
     {
-      url: `${imageo7}`,
+      url: "/images/image07.jpg",
     },
     {
-      url: `${imageo8}`,
+      url: "/images/image08.jpg",
     },
     {
-      url: `${imageo9}`,
+      url: "/images/image09.jpg",
     },
     {
-      url: `${imageo10}`,
+      url: "/images/image10.jpg",
     },
     {
-      url: `${imageo11}`,
+      url: "/images/image11.jpg",
     },
     {
-      url: `${imageo12}`,
+      url: "/images/image12.jpg",
     },
   ];
 
@@ -102,7 +88,6 @@ export const Gallery: React.FC<GalleryProps> = ({
           <div className="relative max-w-4xl w-full">
             <img
               src={galleryImages[selectedImage].url}
-
               className="w-full h-auto rounded-lg"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 rounded-b-lg">
